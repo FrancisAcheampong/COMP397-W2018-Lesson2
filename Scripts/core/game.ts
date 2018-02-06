@@ -1,3 +1,6 @@
+
+
+/// <reference path="_references.ts"/>
 // IIFE - Immediately Invoked Function Expression
 (function(){
 
@@ -85,7 +88,7 @@
     clickMeButton.on("mouseout", clickMeButtonMouseOut);
 
     clickMeButton.on("click", clickMeButtonClick);
-    
+
   }
 
   window.onload = Init;
